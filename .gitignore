@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite build kimenet
+dist
+dist-ssr
+
+# Függőségek (Ezt soha nem töltjük fel a GitHubra)
+node_modules/
+.pnpm-store/
+.pnpm/
+
+# Környezeti változók / titkos kulcsok (ha lesznek)
+.env
+.env.*
+!.env.example
+
+# Szerkesztő beállítások (VS Code, WebStorm)
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS fájlok
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
